@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!--home-->
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <div class="container">
+        <header>
+            <a href="#" class="logo"><img data-aos="fade-down" data-aos-duration="1500" src="/LOGO.png" alt=""></a>
+            <ul class="navlsit">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog.html" class="active">BLOG</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="right">
+                <a href="login.html" data-aos="fade-down" data-aos-duration="1500" class="btn">LOG IN</a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+
+        <main>
+        <!--blog content-->
+            <section id="blog-container">
+                <div class="blogs blogpost">
+                    <div class="post">
+                        <img src="/Teknik.jpg" alt="">
+                        <h3>Front-End: Seni Menciptakan Pengalaman Digital</h3>
+                        <p>Front-end development adalah seni dan ilmu dalam menciptakan antarmuka pengguna yang menarik, fungsional, dan mudah digunakan. Seorang developer front-end bertanggung jawab atas segala sesuatu yang dilihat dan dialami pengguna ketika berinteraksi dengan website atau aplikasi. Ini mencakup tidak hanya aspek visual seperti tata letak, warna, dan tipografi, tetapi juga aspek fungsional seperti responsivitas, kecepatan loading, dan interaktivitas.
+                        <br><br>
+                        Proses pengembangan front-end dimulai dengan HTML yang membangun struktur dasar halaman, layaknya kerangka bangunan. Kemudian CSS datang untuk menghidupkan struktur tersebut dengan desain visual, mengatur tata letak, warna, animasi, dan memastikan tampilan yang konsisten di berbagai perangkat. JavaScript menambahkan lapisan interaktivitas, memungkinkan halaman web merespons input pengguna, memproses data dinamis, dan menciptakan pengalaman yang engaging.
+                        <br><br>
+                        Dengan evolusi teknologi modern, developer front-end sekarang bekerja dengan framework canggih seperti React, Vue, atau Angular yang memungkinkan pembuatan aplikasi web yang kompleks dengan maintainability yang lebih baik. Mereka juga harus menguasai konsep responsive design untuk memastikan pengalaman optimal di desktop, tablet, dan smartphone, serta memahami prinsip-prinsip UX/UI design untuk menciptakan alur pengguna yang intuitif.
+                        </p>
+                        <button>Bacakan Oleh AI</button>
+                    </div>
+                </div>
+         </section>
+        </main>
+    </div> 
+    <!--footer-->
+    <section class="footer">
+        <div class="sec-1">
+            <img src="footer logo.png" alt="">
+            <p>Copyright &copy; 2025 rights reserved | made by Muhammad Arif Triyana</p>         
+            <div class="footer-icon">
+                <a href="#"><i class='bx bxl-facebook-square'></i></box-icon></a>
+                <a href="#" class="active"><i class='bx bxl-instagram-alt'></i></box-icon></a>
+                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="sec-2">
+            <h4><i class='bx bxs-graduation'></i>Campus Aplication</h4>
+            <li><a href="#">Student Academic System (MyCIC)</a></li>
+            <hr>
+            <li><a href="#">Quality Management System (SiMANTU UCIC)</a></li>
+            <hr>
+            <li><a href="#">CIC Library (E-Library)</a></li>
+            <hr>
+            <li><a href="#">UCIC eBook Repository System (MYeBook)</a></li>
+        </div>
+        <div class="sec-3">
+            <h4><i class='bx bx-link'></i>Related Links</h4>
+            <li><a href="#">Academic Position Information System for Lecturers at LLDikti Refion IV</a></li>
+            <hr>
+            <li><a href="#">LLDIKTI Region IV - Level IV Educational Service Institution</a></li>
+            <hr>
+            <li><a href="#">Forlap Dikti</a></li>
+        </div>
+        <div class="sec-4">
+            <h4><i class='bx bxs-contact'></i>Contact Us</h4>
+            <li><a href="#">Jl. Kesambi No. 202, Drajat, Kesambi, Cirebon City, West Java 45133</a></li>
+            <hr>
+            <li><a href="#">Telephone: +62 231-200418</li>
+            <hr>
+            <li><a href="#">PMB Info: +6289512314188</a></li>
+            <hr>
+            <li><a href="#">Email: info@cic.ac.id</a></li>
+        </div>
+    </section>
+    <!--Script-->
+    <script src="java.js"></script>
+    <script>
+        const button = document.querySelector('button')
+        const audio = new Audio('Front-End.mp3')
+        button.addEventListener('click',() => audio.play())
+    </script>
+</body>
+</html>
